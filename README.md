@@ -15,7 +15,7 @@ HHA 502/507 Group Project
 
 ## Exporting data from Qualtrics
 - Was able to extract the data with the help of [Professor Hants Williams](https://github.com/hantswilliams/qualtrics_api)
-- If you would like to recreate this processor, please clone his repo and `code .env`
+- If you would like to recreate this process, please clone his repo and `code .env`
 - Pieces of information needed:
 ```yaml
 QUALTRICS_DATA_CENTER_ID = "insert here"
