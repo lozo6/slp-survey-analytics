@@ -34,3 +34,6 @@ Shows all data that was extracted, cleaned, and enhanced
 
 ## /images
 Shows all charts created with matplotlib.pyplot
+
+## Presentation
+[Google-Slides](https://docs.google.com/presentation/d/1tj1XPoT8lN3yVhacTScLhfJanGwqeXv6x_0UT1i4HM4/edit?usp=sharing)
