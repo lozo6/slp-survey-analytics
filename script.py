@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 
 english_survey = pd.read_csv('data/englishSLP.csv')
+spanish_survey = pd.read_csv('data/spanishSLP.csv')
 urdu_survey = pd.read_csv('data/urduSLP.csv')
+
 
 def enhanceSurvey(survey, language):
     new_survey = survey.drop([0,1])
@@ -26,7 +28,5 @@ def enhanceSurvey(survey, language):
     true_survey.to_csv(f'data/new{language}SLP.csv')
 
 enhanceSurvey(english_survey, 'English')
+enhanceSurvey(spanish_survey, 'Spanish')
 enhanceSurvey(urdu_survey, 'Urdu')
-
-enhanced_english_df = pd.read_csv('data/newEnglishSLP.csv')
-enhanced_urdu_df = pd.read_csv('data/newUrduSLP.csv')
