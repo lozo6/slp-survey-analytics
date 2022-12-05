@@ -28,12 +28,13 @@ QUALTRICS_SURVEY_ID = "insert here"
 - All other scripts were written by [me](https://www.github.com/lozo6), with support from library documentation
 - After retrieving data, `script.py` is used to do some light cleaning, `enhance.ipynb` is used to enhance data (with a visualize through Jupyter Notebook), and lastly, `visual.ipynb` is a Jupyter Notebook to see all the visuals required (will change if client changes deliverables)
 
-## /data
+## /data & /finaldata
 Shows all data that was extracted, cleaned, and enhanced
 
 
 ## /images
-Shows all charts created with matplotlib.pyplot
+Shows all charts created with matplotlib.pyplot, seaborn, and scipy
+
 
 ## Presentation
 [Google-Slides](https://docs.google.com/presentation/d/1tj1XPoT8lN3yVhacTScLhfJanGwqeXv6x_0UT1i4HM4/edit?usp=sharing)
