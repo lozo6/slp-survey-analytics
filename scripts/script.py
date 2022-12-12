@@ -23,9 +23,8 @@ def enhanceSurvey(survey, language):
 
 
     true_survey = ordered_survey.dropna(thresh=46)
-    print(true_survey.sample())
 
-    true_survey.to_csv(f'data/new{language}SLP.csv')
+    true_survey.to_csv(f'data/new{language}SLP.csv', index=False)
 
 enhanceSurvey(english_survey, 'English')
 enhanceSurvey(spanish_survey, 'Spanish')
